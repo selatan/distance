@@ -42,14 +42,15 @@ public class Point {
         list.add(p7);
 
         int i;
-        for (i = 0; i < list.size() - 1; i++) ;
-           double mix = list.get(0);
-           if (list.get(i) < mix) {
-               mix = list.get(i);
-        }
-           System.out.println(mix);
-    }
+        for (i = 0; i < list.size() - 1; i++) {
+            double mix = list.get(0);
+            if (list.get(i) < mix)
+                mix = list.get(i);
 
+            System.out.println(mix);
+
+        }
+    }
     public double calculateDistance(float a, float b, float x, float y) {
 
         double m = Math.pow((a - x), 2);
