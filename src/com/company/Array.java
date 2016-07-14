@@ -19,17 +19,15 @@ public class Array {
             // 如果当前值大于max，则替换max的值
             if (nums[i] > max)
                 max = nums[i];
-        }
+
 
         // 如果当前值小于min，则替换min的值
-        for (int t = 1; t < nums.length; t++) { // 循环遍历数组中的元素
-            if (nums[t] < min)
-                min = nums[t];
-        }
+         // 循环遍历数组中的元素
+            if (nums[i] < min)
+                min = nums[i];
 
         // 累加求和
-        for (int j = 0; j < nums.length; j++) {
-            sum = sum + nums[j];
+            sum = sum + nums[i];
 
         }
 
