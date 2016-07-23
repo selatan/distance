@@ -4,9 +4,10 @@ package test;
  * Created by a1 on 16/7/20.
  */
 public class Telphone {
-    int screen;
-    int mem;
-    int cpu;
+    private  int screen;
+    private int mem;
+    private int cpu;
+
 
     public static void main(String[] args) {
         Telphone T1 = new Telphone();
