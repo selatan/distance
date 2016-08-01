@@ -1,4 +1,4 @@
-package test;
+package project1;
 
 /**
  * Created by a1 on 16/7/20.
@@ -16,5 +16,9 @@ public class Telphone {
         Telphone T2 = new Telphone();
         T2.screen=5;
         System.out.println(T1.equals(T2));
+
+
     }
+
+
 }

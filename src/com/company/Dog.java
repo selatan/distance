@@ -19,6 +19,7 @@ public class Dog extends Animal {
 
     }
     public  void method(){
+
         super.eat();
     }
 }

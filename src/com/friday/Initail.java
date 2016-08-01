@@ -1,6 +1,7 @@
 package com.friday;
 
 /**
+ * 多态
  * Created by a1 on 16/7/20.
  */
 public class Initail {
